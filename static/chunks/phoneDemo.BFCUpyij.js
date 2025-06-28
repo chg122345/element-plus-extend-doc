@@ -1,0 +1,1 @@
+import{d as a,p as l,C as p,b as s,o as u}from"./framework.B3HgsgJJ.js";const d=a({__name:"phoneDemo",setup(m){const e=l();return(r,o)=>{const n=p("ex-input");return u(),s(n,{modelValue:e.value,"onUpdate:modelValue":o[0]||(o[0]=t=>e.value=t),type:"phone"},null,8,["modelValue"])}}});export{d as default};
