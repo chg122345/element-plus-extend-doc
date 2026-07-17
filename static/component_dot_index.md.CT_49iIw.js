@@ -1,0 +1,27 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["static/chunks/baseDemo.CULLeWl8.js","static/chunks/framework.l8elv8IJ.js"])))=>i.map(i=>d[i]);
+import{d as C,v as p,V as c,C as m,o as u,c as x,j as e,a as o,ar as y,as as f,E as l,k as a,w as d,aA as h,aT as g,p as b,G as v}from"./chunks/framework.l8elv8IJ.js";import{C as _,S as A}from"./chunks/index.DVsCdBIq.js";const B=`<template>
+  <span class="example-title">不同尺寸</span>
+  <ex-dot type="primary" size="small" />
+  <ex-dot type="primary" />
+  <ex-dot type="primary" size="large" />
+  <span class="example-title">不同类型</span>
+  <ex-dot type="primary" />
+  <ex-dot type="success" />
+  <ex-dot type="warning" />
+  <ex-dot type="danger" />
+  <ex-dot type="info" />
+  <span class="example-title">禁止闪动</span>
+  <ex-dot type="primary" :animation="false" />
+  <ex-dot type="success" :animation="false" />
+  <ex-dot type="warning" :animation="false" />
+  <ex-dot type="danger" :animation="false" />
+  <ex-dot type="info" :animation="false" />
+  <span class="example-title">自定义颜色</span>
+  <ex-dot color="red" />
+  <ex-dot :animation="false" color="red" />
+  <ex-dot color="blue" />
+  <ex-dot color="#333" />
+</template>
+
+<script lang="ts" setup>
+<\/script>`,P=JSON.parse('{"title":"ExDot 圆点","description":"","frontmatter":{},"headers":[],"relativePath":"component/dot/index.md","filePath":"component/dot/index.md"}'),D={name:"component/dot/index.md"},N=C({...D,setup(k){const s=b(!0),n=v();return p(async()=>{n.value=(await c(async()=>{const{default:i}=await import("./chunks/baseDemo.CULLeWl8.js");return{default:i}},__vite__mapDeps([0,1]))).default}),(i,t)=>{const r=m("ClientOnly");return u(),x("div",null,[t[1]||(t[1]=e("h1",{id:"exdot-圆点",tabindex:"-1"},[o("ExDot 圆点 "),e("a",{class:"header-anchor",href:"#exdot-圆点","aria-label":'Permalink to "ExDot 圆点"'},"​")],-1)),t[2]||(t[2]=e("h2",{id:"基础用法",tabindex:"-1"},[o("基础用法 "),e("a",{class:"header-anchor",href:"#基础用法","aria-label":'Permalink to "基础用法"'},"​")],-1)),y(l(a(_),null,null,512),[[f,s.value]]),l(r,null,{default:d(()=>[l(a(A),{title:"",description:"",locale:"",select:"vue",order:"vue,react,html",github:"",gitlab:"",theme:"",lightTheme:"github-light",darkTheme:"github-dark",stackblitz:"%7B%22show%22%3Atrue%2C%22templates%22%3A%5B%7B%22scope%22%3A%22global%22%2C%22files%22%3A%7B%22src%2Fmain.ts%22%3A%22%5Cnimport%20%7B%20createApp%20%7D%20from%20%5C%22vue%5C%22%3B%5Cnimport%20'element-plus%2Fdist%2Findex.css'%3B%5Cnimport%20'element-plus%2Ftheme-chalk%2Fdark%2Fcss-vars.css'%3B%5Cnimport%20'element-plus-extension%2Fdist%2Ftheme-chalk%2Findex.css'%3B%5Cnimport%20Demo%20from%20%5C%22.%2FDemo.vue%5C%22%3B%5Cnconst%20app%20%3D%20createApp(Demo)%3B%5Cnapp.mount(%5C%22%23app%5C%22)%3B%5Cn%22%2C%22package.json%22%3A%22%7B%5Cn%20%20%5C%22version%5C%22%3A%20%5C%220.0.0%5C%22%2C%5Cn%20%20%5C%22private%5C%22%3A%20true%2C%5Cn%20%20%5C%22scripts%5C%22%3A%20%7B%5Cn%20%20%20%20%5C%22dev%5C%22%3A%20%5C%22vite%5C%22%2C%5Cn%20%20%20%20%5C%22build%5C%22%3A%20%5C%22vite%20build%5C%22%2C%5Cn%20%20%20%20%5C%22serve%5C%22%3A%20%5C%22vite%20preview%5C%22%5Cn%20%20%7D%2C%5Cn%20%20%5C%22dependencies%5C%22%3A%20%7B%5Cn%20%20%20%20%5C%22vue%5C%22%3A%20%5C%22latest%5C%22%2C%5Cn%20%20%20%20%5C%22element-plus%5C%22%3A%20%5C%22latest%5C%22%2C%5Cn%20%20%20%20%5C%22element-plus-extension%5C%22%3A%20%5C%22latest%5C%22%5Cn%20%20%7D%2C%5Cn%20%20%5C%22devDependencies%5C%22%3A%20%7B%5Cn%20%20%20%20%5C%22vite%5C%22%3A%20%5C%22latest%5C%22%2C%5Cn%20%20%20%20%5C%22typescript%5C%22%3A%20%5C%22latest%5C%22%2C%5Cn%20%20%20%20%5C%22%40vitejs%2Fplugin-vue%5C%22%3A%20%5C%22latest%5C%22%2C%5Cn%20%20%20%20%5C%22%40vitejs%2Fplugin-vue-jsx%5C%22%3A%20%5C%22latest%5C%22%5Cn%20%20%7D%5Cn%7D%22%7D%7D%5D%7D",codesandbox:"%7B%22show%22%3Afalse%7D",playground:"%7B%22show%22%3Afalse%7D",files:"%7B%22vue%22%3A%7B%7D%2C%22react%22%3A%7B%7D%2C%22html%22%3A%7B%7D%7D",scope:"",htmlWriteWay:"write",background:"undefined",htmlPlayground:"",vuePlayground:"",reactPlayground:"",visible:!0,onMount:t[0]||(t[0]=()=>{s.value=!1}),vueCode:a(B)},h({_:2},[n.value?{name:"vue",fn:d(()=>[l(a(n))]),key:"0"}:void 0]),1032,["vueCode"])]),_:1}),t[3]||(t[3]=g('<h2 id="api" tabindex="-1">API <a class="header-anchor" href="#api" aria-label="Permalink to &quot;API&quot;">​</a></h2><h3 id="props" tabindex="-1">Props <a class="header-anchor" href="#props" aria-label="Permalink to &quot;Props&quot;">​</a></h3><table tabindex="0"><thead><tr><th style="text-align:left;">名称</th><th style="text-align:left;">类型</th><th style="text-align:left;">默认值</th><th style="text-align:left;">说明</th><th style="text-align:center;">必传</th></tr></thead><tbody><tr><td style="text-align:left;">size</td><td style="text-align:left;">string</td><td style="text-align:left;">-</td><td style="text-align:left;">组件大小</td><td style="text-align:center;">N</td></tr><tr><td style="text-align:left;">type</td><td style="text-align:left;">string</td><td style="text-align:left;">-</td><td style="text-align:left;">组件类型</td><td style="text-align:center;">N</td></tr><tr><td style="text-align:left;">animation</td><td style="text-align:left;">boolean</td><td style="text-align:left;">true</td><td style="text-align:left;">开启动画</td><td style="text-align:center;">N</td></tr><tr><td style="text-align:left;">color</td><td style="text-align:left;">string</td><td style="text-align:left;">-</td><td style="text-align:left;">自定义颜色</td><td style="text-align:center;">N</td></tr></tbody></table>',3))])}}});export{P as __pageData,N as default};

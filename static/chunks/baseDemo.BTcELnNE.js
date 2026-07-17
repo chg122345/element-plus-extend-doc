@@ -1,0 +1,1 @@
+import{d as t,C as l,o as s,b as p,p as u}from"./framework.l8elv8IJ.js";const _=t({__name:"baseDemo",setup(m){const e=u();return(r,o)=>{const n=l("ex-input");return s(),p(n,{slots:{append:"搜索"},modelValue:e.value,"onUpdate:modelValue":o[0]||(o[0]=a=>e.value=a)},null,8,["modelValue"])}}});export{_ as default};
